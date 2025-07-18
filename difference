@@ -1,0 +1,10 @@
+| Feature              | **List**                                 | **Tuple**                                 |
+| -------------------- | ---------------------------------------- | ----------------------------------------- |
+| **Mutability**       | ✅ Mutable (can be changed)               | ❌ Immutable (cannot be changed)           |
+| **Syntax**           | `my_list = [1, 2, 3]`                    | `my_tuple = (1, 2, 3)`                    |
+| **Performance**      | Slower (due to mutability)               | Faster (optimized for fixed data)         |
+| **Methods**          | Many methods: `append()`, `pop()`        | Fewer methods: `count()`, `index()`       |
+| **Hashable**         | ❌ Not hashable                           | ✅ Hashable (if elements are immutable)    |
+| **Memory Usage**     | Uses more memory                         | Uses less memory                          |
+| **Use Cases**        | When data changes (e.g., lists of users) | When data is constant (e.g., coordinates) |
+| **Can be dict key?** | ❌ No                                     | ✅ Yes                                     |
